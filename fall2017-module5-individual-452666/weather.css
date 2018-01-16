@@ -1,0 +1,38 @@
+.weather{
+    width: 200px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.weather-loc{
+    font-size: 18px;
+}
+
+.weather-temp{
+    float:left;
+}
+.weather-temp::before{
+    content: 'Currently ';
+}
+
+.weather-humidity{
+    float: right;
+}
+.weather-humidity::before{
+    content: 'Humidity: ';
+}
+.weather-humidity::after{
+    content: '%';
+}
+blockquote{
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 125%;
+        font-style: italic;
+        text-align:center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }

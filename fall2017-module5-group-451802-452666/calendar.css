@@ -1,0 +1,91 @@
+p#welcomewords3{
+        text-align:center;
+        font-family:fantasy;
+        font-size: 60px;
+        font-weight: bold;
+        width: 100%;
+    }
+div#welcome3{
+        background-color:lemonchiffon;
+        padding: 25px;
+        width: 100%;
+    }
+
+div#loginpart{
+        text-align:center;
+        overflow: auto;
+        margin: 10px 0px 0px 0px;
+        padding-top: 10px;
+    }
+div#hello1{
+        text-align:center;
+        font-family: fantasy;
+        font-size: 30px;
+    }
+.loginpart{
+        text-align:center;
+        overflow: auto;
+        width: 100%;
+        margin: 20px 0px 0px 0px;
+        padding-top: 10px;
+        
+
+    }
+    
+div#section_1{
+    text-align: center;
+    
+}
+input#logout{
+    text-align: center;
+    
+}
+div#currentmonth{
+   font-family: fantasy;text-align:center;
+}
+
+.calendar {
+    color:black;
+    width:100%;
+    border-width: 3px;
+    border:solid #FFCC00;
+    font-size:25px;
+    border-radius:5px;
+}
+category{
+    text-align:center;
+}
+.calendar td {
+    height: 60px;
+    width: 60px;
+    font-size:25px;
+    border-width: 3px;
+    border-color: lightgrey;
+    background-color:lightpink;
+    }
+
+.calendar b{
+    padding: 5px;
+    border-style: solid;
+    background-color:lemonchiffon;
+}
+
+/*1 the below code from http://www.cnblogs.com/yun007/archive/2013/05/20/3088228.html*/
+.calendar tr:hover {
+    background-color:lightgreen;
+    }
+.calendar tr:hover td{background:none;}
+/*end 1*/
+blockquote{
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 125%;
+        font-style: italic;
+        text-align:center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+
